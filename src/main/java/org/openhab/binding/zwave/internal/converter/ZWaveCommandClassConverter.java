@@ -66,6 +66,7 @@ public abstract class ZWaveCommandClassConverter {
         temp.put(CommandClass.COMMAND_CLASS_METER_TBL_MONITOR, ZWaveMeterTblMonitorConverter.class);
         temp.put(CommandClass.COMMAND_CLASS_PROTECTION, ZWaveProtectionConverter.class);
         temp.put(CommandClass.COMMAND_CLASS_SCENE_ACTIVATION, ZWaveSceneActivationConverter.class);
+        temp.put(CommandClass.COMMAND_CLASS_SCENE_ACTUATOR_CONF, ZWaveSceneActuatorConfConverter.class);
         temp.put(CommandClass.COMMAND_CLASS_SENSOR_ALARM, ZWaveAlarmSensorConverter.class);
         temp.put(CommandClass.COMMAND_CLASS_SENSOR_BINARY, ZWaveBinarySensorConverter.class);
         temp.put(CommandClass.COMMAND_CLASS_SENSOR_MULTILEVEL, ZWaveMultiLevelSensorConverter.class);
